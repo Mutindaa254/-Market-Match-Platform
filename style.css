@@ -1,0 +1,170 @@
+ body.dark-theme {
+     background-color: #181a1b !important;
+     color: #e0e0e0 !important;
+ }
+
+ body.dark-theme .card,
+ body.dark-theme .modal-content {
+     background-color: #23272b !important;
+     color: #e0e0e0 !important;
+ }
+
+ body.dark-theme .bg-primary,
+ body.dark-theme .navbar,
+ body.dark-theme .modal-header.bg-primary {
+     background-color: #212529 !important;
+ }
+
+ body.dark-theme .bg-success,
+ body.dark-theme .modal-header.bg-success {
+     background-color: #14532d !important;
+ }
+
+ body.dark-theme .bg-info,
+ body.dark-theme .modal-header.bg-info {
+     background-color: #0c4a6e !important;
+ }
+
+ body.dark-theme .bg-secondary,
+ body.dark-theme .modal-header.bg-secondary {
+     background-color: #343a40 !important;
+ }
+
+ body.dark-theme .table-striped>tbody>tr:nth-of-type(odd) {
+     background-color: #222 !important;
+ }
+
+ body.dark-theme .btn-light {
+     background-color: #343a40 !important;
+     color: #fff !important;
+     border-color: #444 !important;
+ }
+
+ body.dark-theme .btn-outline-secondary {
+     color: #fff !important;
+     border-color: #888 !important;
+ }
+
+ body.dark-theme .form-control,
+ body.dark-theme .form-select {
+     background-color: #23272b !important;
+     color: #e0e0e0 !important;
+     border-color: #444 !important;
+ }
+
+ body.dark-theme .form-control:focus,
+ body.dark-theme .form-select:focus {
+     background-color: #181a1b !important;
+     color: #fff !important;
+     border-color: #888 !important;
+ }
+
+ body.dark-theme .modal-content {
+     border-color: #444 !important;
+ }
+
+ body {
+     background-color: #f8f9fa;
+     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+ }
+
+ .card {
+     border-radius: 10px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     border: none;
+     margin-bottom: 20px;
+ }
+
+ .card-header {
+     border-radius: 10px 10px 0 0 !important;
+ }
+
+ .table {
+     margin-bottom: 0;
+ }
+
+  body.dark-theme .table th {
+     font-weight: 600;
+      background-color: #343a40 !important;
+     color: #fff !important;
+     border-color: #444 !important;
+ }
+  body.dark-theme .table td{
+     background-color: #343a40 !important;
+     color: #fff !important;
+     border-color: #444 !important;
+ }
+
+ .btn {
+     border-radius: 5px;
+     font-weight: 500;
+ }
+
+ .form-control,
+ .form-select {
+     border-radius: 5px;
+     padding: 8px 12px;
+ }
+
+ #noDataMessage {
+     display: none;
+ }
+
+ .price-up {
+     color: #dc3545;
+     font-weight: bold;
+ }
+
+ .price-down {
+     color: #28a745;
+     font-weight: bold;
+ }
+
+ .price-same {
+     color: #6c757d;
+     font-weight: bold;
+ }
+
+ .action-btn {
+     padding: 5px 8px;
+     margin: 0 2px;
+     font-size: 0.85rem;
+ }
+
+ /* Responsive adjustments */
+ @media (max-width: 768px) {
+     .card-body {
+         padding: 15px;
+     }
+
+     .table-responsive {
+         overflow-x: auto;
+     }
+
+     header h1 {
+         font-size: 1.5rem;
+     }
+ }
+
+ /* Animation for new entries */
+ @keyframes fadeIn {
+     from {
+         opacity: 0;
+         transform: translateY(10px);
+     }
+
+     to {
+         opacity: 1;
+         transform: translateY(0);
+     }
+ }
+
+ .new-entry {
+     animation: fadeIn 0.5s ease-out;
+ }
+
+ /* Chart container */
+ #priceChart {
+     width: 100% !important;
+     height: 200px !important;
+ }
